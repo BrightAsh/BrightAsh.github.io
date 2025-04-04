@@ -18,7 +18,7 @@
   @extend %btn-color;
 
   #breadcrumb {
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: var(--text-muted-color);
     padding-left: 0.5rem;
 
@@ -83,4 +83,9 @@
   @include bp.lt(bp.get(lg)) {
     display: block;
   }
+}
+
+
+#topbar {
+  background-color: #ffffff !important;
 }
