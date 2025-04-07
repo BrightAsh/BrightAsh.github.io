@@ -3,12 +3,14 @@ title: "너비 우선 탐색 | BFS"
 date: 2025-04-04 11:00:00 +0900
 achieved: 2025-04-04 12:00:00 +0900
 math: true
-categories: [Algorithm, BFS]
-tags: [Algorithm, BFS]
+categories: [Algorithm, Search, BFS]
+tags: [Algorithm, Search, BFS]
 ---
 ---------- 	
 > 내가 볼려고 작성한 알고리즘 공부. 
 {: .prompt-info } 
+
+
 # 💾 BFS (너비 우선 탐색)
 
 ## ✅ 1. 개념 이해하기
