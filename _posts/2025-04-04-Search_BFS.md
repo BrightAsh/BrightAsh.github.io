@@ -193,6 +193,7 @@ def bfs(x, y):
 
 
 - 백준 2178 - 미로 탐색
+
 ```py
 import sys
 from collections import deque
@@ -217,6 +218,7 @@ while q:
 ```
 
 - 백준 7576 - 토마토
+
 ```py
 import sys
 from collections import deque
@@ -251,6 +253,7 @@ print(answer)
 
 ```
 - 백준 1697 - 숨바꼭질
+
 ```py
 from collections import deque
 n, k = map(int,input().split())
@@ -270,6 +273,7 @@ while q:
 ```
 
 - 프로그래머스 - 게임 맵 최단거리
+
 ```py
 from collections import deque
 

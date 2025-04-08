@@ -215,6 +215,7 @@ def dfs(x, y):
 ## ✅ 8. 문제 풀이
 
 - 백준 11724 - 연결 요소의 개수
+
 ```py
 import sys
 sys.setrecursionlimit(10**6)
@@ -261,6 +262,7 @@ print(cnt)
 
 
 - 백준 4963 - 섬의 개수
+
 ```py
 import sys
 sys.setrecursionlimit(10000)
@@ -299,6 +301,7 @@ while w!=0 and h!=0:
 
 
 - 프로그래머스 - 단어 변환
+
 ```py
 def solution(begin, target, words):
     v = [False for _ in range(len(words))]
@@ -318,6 +321,7 @@ def solution(begin, target, words):
     return min(answer) if answer else 0
 ```
 - 백준 9663 - N-Queen (실패)
+
 ```py
 n = int(input())
 answer = 0
@@ -355,6 +359,7 @@ print(answer)
 > 이슈 1: 시간 초과 (TLE)
 > - **원인**: 2차원 배열로 위협 범위를 일일이 표시하고 있어서 N이 커질수록 연산량이 많아짐
 > - **해결**: ??
+
 ```py
 import sys
 input = sys.stdin.readline
